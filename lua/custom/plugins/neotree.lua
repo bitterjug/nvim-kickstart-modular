@@ -11,7 +11,8 @@ return {
       window = {
         mappings = {
           ['H'] = 'navigate_up',
-          ['zh'] = 'toggle_hidden',
+          ['z'] = 'toggle_hidden',
+          ['l'] = 'open',
         },
       },
     }

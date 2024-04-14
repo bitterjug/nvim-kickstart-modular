@@ -49,13 +49,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 -- Inspired by Tim Pope, toggle files in current buffer
-vim.keymap.set('n', '=', '<cmd>Neotree toggle current reveal_force_cwd<CR>')
-vim.keymap.set('n', '-', function()
-  if vim.bo.filetype == 'neo-tree' then
-    vim.cmd 'Neotree close'
-  else
-    vim.cmd 'Neotree toggle current reveal_force_cwd'
-  end
-end)
-
+vim.keymap.set('n', '-', '<cmd>Neotree toggle current reveal_force_cwd<CR>')
+vim.keymap.set('n', '<leader>gs', '<cmd>Neotree float git_status<CR>')
+vim.keymap.set('n', '<leader>bb', '<cmd>Neotree float buffers<CR>')
 -- vim: ts=2 sts=2 sw=2 et
