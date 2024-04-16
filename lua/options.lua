@@ -3,6 +3,11 @@
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
+-- Obsidian recommends this level.
+-- See if it can be applied generally or needs to be done
+-- for markdown files only?
+vim.opt.conceallevel = 1
+
 -- Make line numbers default
 vim.opt.number = true
 -- You can also add relative line numbers, to help with jumping.
