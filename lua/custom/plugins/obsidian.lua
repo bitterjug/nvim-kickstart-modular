@@ -21,7 +21,5 @@ return {
         path = '~/Documents/vim-notes/',
       },
     },
-
-    -- see below for full list of options 👇
   },
 }
